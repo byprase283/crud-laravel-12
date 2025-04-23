@@ -19,7 +19,7 @@
                     <div class="card-body">
                         <h3>{{ $data->nim }}</h3>
                         <hr />
-                        <h3>{{ $data->name }}</h3>
+                        <h3>{{ $data->nama }}</h3>
                         <hr />
                         <h3>{{ $data->jurusan }}</h3>
                         <hr />
