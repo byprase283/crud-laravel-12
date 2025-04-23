@@ -35,7 +35,7 @@
                                 <tr>
 
                                     <td>{{ $data->nim }}</td>
-                                    <td>{{ $data->name }}</td>
+                                    <td>{{ $data->nama }}</td>
                                     <td>{{ $data->jurusan }}</td>
                                     <td class="text-center">
                                         <form onsubmit="return confirm('Apakah Anda Yakin ?');" action="{{ route('crud.destroy', $data->id) }}" method="POST">
