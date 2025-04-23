@@ -36,10 +36,10 @@
                                 <div class="col-md-4">
                                     <div class="form-group mb-3">
                                         <label class="font-weight-bold">NAMA</label>
-                                        <input type="text" class="form-control @error('name') is-invalid @enderror" name="name" value="{{ old('name') }}" placeholder="Masukkan Nama">
+                                        <input type="text" class="form-control @error('name') is-invalid @enderror" name="nama" value="{{ old('nama') }}" placeholder="Masukkan Nama">
 
-                                        <!-- error message untuk name -->
-                                        @error('name')
+                                        <!-- error message untuk nama -->
+                                        @error('nama')
                                         <div class="alert alert-danger mt-2">
                                             {{ $message }}
                                         </div>
