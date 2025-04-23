@@ -36,7 +36,7 @@
                                 <div class="col-md-4">
                                     <div class="form-group mb-3">
                                         <label class="font-weight-bold">NAMA</label>
-                                        <input type="text" class="form-control @error('name') is-invalid @enderror" name="nama" value="{{ old('nama') }}" placeholder="Masukkan Nama">
+                                        <input type="text" class="form-control @error('nama') is-invalid @enderror" name="nama" value="{{ old('nama') }}" placeholder="Masukkan Nama">
 
                                         <!-- error message untuk nama -->
                                         @error('nama')
